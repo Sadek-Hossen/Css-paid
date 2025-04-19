@@ -298,6 +298,14 @@ div .app img{
     margin-bottom: 40px;
     text-align: center;
 }
+.h11{
+    font-size: 30px;
+    text-align: center;
+    bottom: 30px;
+    top: 40px;
+    color: red;
+    
+}
 @media (max-width:767px) {
 
     .conteiar{
