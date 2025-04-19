@@ -1,0 +1,528 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    display: flex;
+    background-color:none;
+    gap: 100px;
+    width: 100%;
+    color: #0b0776;
+    padding: 20px 30px;
+    
+    
+    & div{
+        border: 1px solid black;
+       padding: 5px;}
+    }
+    .bennar1{
+        position: absolute;
+ right: 0 ;
+ width: 50%;
+ z-index: -1;
+    }
+    .section1{
+        margin-left: 200px;
+    }
+    .section1 h1{
+        font-size: 80px;
+        width: 600px;
+        height: 300px;
+        margin-top: 200px;
+    
+
+    }
+    .section1 label{
+
+        font-size: 30px;
+        padding: 5px;
+
+    }
+/* gobal css */ 
+.conteiar{
+    max-width: 1240px;
+    margin: 0% auto;
+}    
+.between{
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+align-items: center;
+}
+/* gobal css */
+
+/* section start  */
+
+    .section1 button{
+    
+        width: 120px;
+        height: 50px;
+        background-color: black;
+        color: aliceblue;
+      padding: 10px;
+      margin-top: 20px;
+      outline: none;
+      border-radius:10px;
+      font-size: 20px;
+
+    }
+    .section2{
+        padding: 140px 0px;
+    
+
+        & .bann{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+        }
+        & div h1{
+            font-size: 70px;
+            font-weight: 550px;
+
+        }
+        & div  p{
+            padding: 20px 0;
+            font-size: 24px;
+            font-weight:400;
+            }
+            & div .app{
+                display: flex;
+                padding: 0px 0;
+                background-color: aqua;
+                width: 200px;
+                height:90px;
+                border-radius: 20px;
+                margin-top: 20px;
+
+            }
+            div .app img{
+                margin-top: -30px;
+                margin-left: 30px;
+            }
+            & .app div p{
+                font-size:20px ;
+                opacity: 50%;
+                margin-left: 20px;
+                
+
+            }
+            & .app div h5{
+                font-size: 20px;
+                margin-left: 20px;
+                margin-top: -20px;
+            }
+            & div .app img{
+                width:30px;
+                height: 30px;
+                margin-top: 40px;
+            }
+            & div p{
+                opacity: 50%; ;
+            }
+        
+
+
+    }
+.Track{
+    position: relative;
+    z-index: -1;
+    left: 0;
+    top: 10%;
+
+
+}
+.conteia{
+    position: absolute;
+
+& .left h2{
+    font-size: 85px;
+    margin-top: -200px;
+}
+
+    & .img-grid{
+        padding-top: 80px;
+        padding-left: 80px;
+        display: flex;
+        gap: 20px;
+    }
+    & .left {
+        width: 150px;
+       float: left;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+& .div:nth-child(2){
+    margin-top: 30px;
+}
+& .div img{
+    margin-top: 20px;
+}
+
+    
+
+
+     & .right h2{
+          font-weight: 400;
+        font-size: 40px;
+        color: rgb(107, 103, 103);
+        padding-right: 8rem;
+
+    }
+    .ditails{
+        display: flex;
+      align-items:start;
+     gap: 30px;
+     margin-top: 60px;
+    
+    }
+    
+    
+    div p{
+        color: rgb(107, 103, 103);
+        width: 300px;
+        font-size: 20px;
+        max-width: 300px;
+    }
+    & .cam{
+        margin-left: -0px;
+        margin-top: 200px;
+    color: rgb(107, 103, 103); 
+
+}
+    & .camimg{
+        margin-left: -440px;
+        margin-top: 200px;
+    
+
+    } 
+     
+}
+.pic .pi img{
+    width: 210%;
+    padding: 20px;
+    margin: 0;
+}
+
+
+/* freesection */
+
+.free-section{
+    width: 90%;
+    align-items: center;
+    position: ;
+    margin: 120 auto;
+    background-color: #D9F4FF;
+    border-radius: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 0.1fr);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left:70px ;
+
+    & .daat{
+        margin-left: 100px;
+    }
+
+
+    & h1{
+
+        font-size: 68px;
+        width: 400px;
+    }
+& img{
+padding: 0  50px;
+}
+
+
+& .daat .app{
+    display: flex;
+    padding: 0px 0;
+    background-color: aqua;
+    width: 200px;
+    height:90px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+div .app img{
+    margin-top: -30px;
+    margin-left: 0px;
+}
+& .app div p{
+    font-size:20px ;
+    opacity: 50%;
+    margin-left: 0px;
+    
+
+}
+
+& .daat .app img{
+    
+    height: 50px;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+& .daat .app div h5{
+    font-size: 20px;
+    /* margin-left: -40px; */
+    margin-top:0px;
+    width: 200px;
+
+    
+}
+
+& div p{
+    opacity: 50%; 
+    width: 200px;
+     
+}
+& .div2{
+    margin-left: -40px;
+   margin-top: 20px;
+}
+
+
+}
+
+ footer .copyright p{
+    color:#9393c4;
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media (max-width:767px) {
+
+    .conteiar{
+    max-width: 0px;
+    margin: 0% auto;
+}    
+.between{
+
+    gap: 2rem;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.bennar1{
+right: 0px ;
+width: 70%;
+z-index: -1;
+}
+.section1{
+    margin-left: 00px;
+    
+}
+.section1 h1{
+    font-size: 50px;
+    width:350px;
+    height: 300px;
+    margin-top: 200px;
+
+
+}
+
+.section2{
+
+margin-left: 0;
+
+& img{
+    width: 400px;
+}
+
+    & .bann {
+        padding: 0px 0px;
+         min-width: 300px;
+
+    }
+    & div h1{
+        font-size: 60px;
+        width: 400px;
+        font-weight: 550px;
+        
+    }
+     & p{
+        width: 400px;
+        margin-bottom:300p;
+
+    
+
+    
+        }
+        & div .app{
+            display: flex;
+            padding: 0px 0;
+            background-color: aqua;
+            width: 200px;
+            height:90px;
+            border-radius: 20px;
+            margin-top: 20px;
+
+        }
+        div .app img{
+            margin-top: -30px;
+            margin-left: 30px;
+        }
+        & .app div p{
+            font-size:20px ;
+            opacity: 50%;
+            margin-left: 20px;
+            
+
+        }
+        & .app div h5{
+            font-size: 20px;
+            margin-left: 20px;
+            margin-top: -20px;
+        }
+        & div .app img{
+            width:30px;
+            height: 30px;
+            margin-top: 40px;
+        }
+        & div p{
+            opacity: 50%; ;
+        }
+    
+
+
+}
+
+.Track{
+ /* padding: 400px; */
+    left: 0;
+    top: 40%;
+& img{
+
+    
+
+
+
+}
+}
+
+.conteia{
+    position: absolute;
+
+& .left h2{
+    font-size: 63px;
+    margin-top: 662px;
+}
+
+    & .img-grid{
+        padding-top: 80px;
+        padding-left: 80px;
+        display: flex;
+        gap: 20px;
+    }
+    & .left {
+        width: 150px;
+       float: left;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+& .div:nth-child(2){
+    margin-top: 30px;
+}
+& .div img{
+    margin-top: 20px;
+}
+
+    
+
+
+     & .right h2{
+          font-weight: 400;
+        font-size: 40px;
+        color: rgb(107, 103, 103);
+        padding-right: 8rem;
+
+    }
+    .ditails{
+        display: flex;
+      align-items:start;
+     gap: 30px;
+     margin-top: 60px;
+    
+    }
+    
+    
+    div p{
+        
+        width: 280px;
+        
+    
+    }
+    & .cam{
+        margin-left: -0px;
+        margin-top: 200px;
+    color: rgb(107, 103, 103); 
+
+}
+    & .camimg{
+        margin-left: -440px;
+        margin-top: 200px;
+    
+
+    } 
+     
+}
+.pic .pi img{
+    width: 210%;
+    padding: 20px;
+    margin: 0;
+}
+
+.section2 {
+    & div h1 {
+      font-size: 60px;
+     
+      margin-top: 600px;
+    }
+    
+}
+
+
+.pic .pi img {
+    width: 94%;
+    min-width: 386px;
+margin-left: -201px;
+}
+.free-section{
+       grid-template-columns: repeat(1, 0.1fr);
+       margin-left: 0px;
+       width: 100%;
+
+    & .daat{
+        margin-left: 00px;
+        top: 30px;
+    
+    }
+
+
+    
+& img{
+padding: 0  50px;
+left: -10px;
+width: 100%;
+}
+
+
+
+}
+div .app img{
+    margin-top: -30px;
+    margin-left: 0px;
+}
+
+
+
+
+    
+}
